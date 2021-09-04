@@ -13,6 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->tableWidget->resizeRowsToContents();
 
     QString val;
     QFile file;
@@ -24,18 +25,22 @@ MainWindow::MainWindow(QWidget *parent)
     QJsonDocument jsonResponse = QJsonDocument::fromJson(val.toUtf8());
     QJsonObject jsonObject = jsonResponse.object();
     QJsonArray sigarette = jsonObject["elenco"].toArray();
-    QJsonArray sigaretti = jsonObject["SIGARETTI"].toArray();
-    QJsonArray tabacco = jsonObject["TABACCO"].toArray();
 
     for (int i=0; i<sigarette.size(); i++) {
         QJsonObject tmp = sigarette.at(i).toObject();
         ui->tableWidget->insertRow(i);
         QTableWidgetItem *item =  new QTableWidgetItem(tmp["nome"].toString());
         item->setTextAlignment(Qt::AlignCenter);
+        QTableWidgetItem *item_2 =  new QTableWidgetItem(tmp["codice"].toString());
+        item_2->setTextAlignment(Qt::AlignCenter);
+        QTableWidgetItem *item_3 =  new QTableWidgetItem(tmp["quantita"].toString());
+        item_3->setTextAlignment(Qt::AlignCenter);
         ui->tableWidget->setItem(i, 0, item);
+        ui->tableWidget->setItem(i, 1, item_2);
+        ui->tableWidget->setItem(i, 2, item_3);
     }
 
-    ui->tableWidget->resizeRowsToContents();
+
     ui->tableWidget->resizeColumnsToContents();
 
 }
