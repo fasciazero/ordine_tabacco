@@ -26,6 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     QJsonDocument jsonResponse = QJsonDocument::fromJson(val.toUtf8());
     QJsonObject jsonObject = jsonResponse.object();
     QJsonArray sigarette = jsonObject["elenco"].toArray();
+    double tot_kg = 0.0;
 
     for (int i=0; i<sigarette.size(); i++) {
         QJsonObject tmp = sigarette.at(i).toObject();
@@ -41,6 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
             QTableWidgetItem *item_5 =  new QTableWidgetItem(tmp["totale"].toString());
             item_5->setTextAlignment(Qt::AlignCenter);
             ui->tableWidget->setItem(i, 3, item_5);
+            tot_kg += tmp["totale"].toString().toDouble();
         }
 
         ui->tableWidget->setItem(i, 0, item);
@@ -50,6 +52,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tableWidget->resizeColumnsToContents();
     ui->tableWidget->resizeRowsToContents();
 
+    ui->label_2->setText(QString::number(tot_kg) + "kg");
+
 }
 
 MainWindow::~MainWindow()
@@ -58,6 +62,8 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::refresh(){
+
+    double tot = 0.0;
 
     QString val;
     QFile file;
@@ -79,12 +85,15 @@ void MainWindow::refresh(){
             QTableWidgetItem *item_2 =  new QTableWidgetItem(tmp["totale"].toString());
             item_2->setTextAlignment(Qt::AlignCenter);
             ui->tableWidget->setItem(i, 3, item_2);
+            tot += tmp["totale"].toString().toDouble();
         }
         else{
             ui->tableWidget->setItem(i, 2, nullptr);
             ui->tableWidget->setItem(i, 3, nullptr);
         }
     }
+
+    ui->label_2->setText(QString::number(tot) + "kg");
 }
 
 void MainWindow::add(int n){
@@ -201,5 +210,35 @@ void MainWindow::on_radioButton_3_clicked()
 {
     ui->lineEdit->clear();
     ui->lineEdit->setEnabled(true);
+}
+
+
+void MainWindow::on_pushButton_8_clicked()
+{
+    QString val;
+    QFile file;
+    file.setFileName(filepath);
+    file.open(QIODevice::ReadOnly | QIODevice::Text);
+    val = file.readAll();
+    file.close();
+
+    QJsonDocument jsonResponse = QJsonDocument::fromJson(val.toUtf8());
+    QJsonObject jsonObject = jsonResponse.object();
+    QJsonArray sigarette = jsonObject["elenco"].toArray();
+
+    for (int i=0; i<sigarette.size(); i++) {
+        QJsonObject tmp = sigarette[i].toObject();
+        tmp["quantita"] = QString::number(0);
+        tmp["totale"] = QString::number(0);
+        sigarette.replace(i, tmp);
+    }
+
+    jsonObject.insert("elenco", sigarette);
+    jsonResponse.setObject(jsonObject);
+    file.open(QIODevice::ReadWrite | QIODevice::Text| QFile::Truncate);
+    file.write(jsonResponse.toJson());
+    file.close();
+
+    refresh();
 }
 
