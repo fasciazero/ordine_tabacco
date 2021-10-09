@@ -3,8 +3,8 @@ import numpy as np
 import xlrd
 import json
 
-file = pd.read_excel(r'C:\Users\Oscar\Desktop\ordine_tabacco\ORDINE TABACCO.xlsx', sheet_name = None)
-file2 = open(r'C:\Users\Oscar\Desktop\ordine_tabacco\database.json', "w")
+file = pd.read_excel(r'C:\Users\Secernato\Documents\Qt projects\ordine_tabacco\ORDINE TABACCO.xlsx', sheet_name = None)
+file2 = open(r'C:\Users\Secernato\Documents\Qt projects\ordine_tabacco\database.json', "w")
 obj = {"elenco" : []}
 for row in range(0, 165):
     single_data = {

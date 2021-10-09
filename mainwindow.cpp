@@ -6,7 +6,7 @@
 #include "QJsonArray"
 
 extern QString filepath;
-QString filepath = "C:/Users/Oscar/Desktop/ordine_tabacco/database.json";
+QString filepath = "C:/Users/Secernato/Desktop/ordine_tabacco/database.json";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
