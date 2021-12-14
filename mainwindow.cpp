@@ -115,6 +115,8 @@ void MainWindow::add(int n){
         tmp["totale"] = QString::number(tmp["totale"].toString().toDouble() + n*0.2);
     if (ui->radioButton_2->isChecked())
         tmp["totale"] = QString::number(tmp["totale"].toString().toDouble() + n*0.3);
+    if (ui->radioButton_4->isChecked())
+        tmp["totale"] = QString::number(tmp["totale"].toString().toDouble() + n*0.5);
     if (ui->radioButton_3->isChecked())
         tmp["totale"] = QString::number(tmp["totale"].toString().toDouble() + n*ui->lineEdit->text().toDouble());
     sigarette.replace(ui->tableWidget->currentRow(), tmp);
@@ -240,5 +242,24 @@ void MainWindow::on_pushButton_8_clicked()
     file.close();
 
     refresh();
+}
+
+
+void MainWindow::on_pushButton_9_clicked()
+{
+    add(3);
+}
+
+
+void MainWindow::on_pushButton_10_clicked()
+{
+    add(-3);
+}
+
+
+void MainWindow::on_radioButton_4_clicked()
+{
+    ui->lineEdit->clear();
+    ui->lineEdit->setDisabled(true);
 }
 
