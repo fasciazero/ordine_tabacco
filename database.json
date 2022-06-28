@@ -9,8 +9,8 @@
         {
             "codice": "2956",
             "nome": "JPS BLU MORBIDO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "293",
@@ -33,8 +33,8 @@
         {
             "codice": "2288",
             "nome": "JPS BLU 100",
-            "quantita": "0",
-            "totale": "0"
+            "quantita": "2",
+            "totale": "0.4"
         },
         {
             "codice": "2287",
@@ -45,20 +45,20 @@
         {
             "codice": "2883",
             "nome": "JPS SILVER 100",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "96",
             "nome": "CHESTER ROSSO DURO",
-            "quantita": "7",
-            "totale": "1.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "201",
             "nome": "CHESTER BLU DURO",
-            "quantita": "6",
-            "totale": "1.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3113",
@@ -75,14 +75,14 @@
         {
             "codice": "2257",
             "nome": "CHESTER SILVER",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "478",
             "nome": "Camel BLU DURO",
-            "quantita": "8",
-            "totale": "1.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3590",
@@ -93,8 +93,8 @@
         {
             "codice": "632",
             "nome": "Camel BLU MORBIDO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "546",
@@ -117,8 +117,8 @@
         {
             "codice": "270",
             "nome": "Camel GIALLO MORBIDO",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "552",
@@ -129,14 +129,14 @@
         {
             "codice": "338",
             "nome": "Winston BLU",
-            "quantita": "18",
-            "totale": "3.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "1784",
             "nome": "Winston BLU 100",
-            "quantita": "10",
-            "totale": "2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "134",
@@ -147,12 +147,12 @@
         {
             "codice": "1248",
             "nome": "Winston WHITE",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
-            "codice": "3543",
-            "nome": "Winston Doppio Menta",
+            "codice": "20226",
+            "nome": "Winston EXPAND",
             "quantita": "0",
             "totale": "0"
         },
@@ -165,38 +165,38 @@
         {
             "codice": "91",
             "nome": "Winston ROSSO 20",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "1783",
             "nome": "Winston ROSSO 100",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2296",
             "nome": "Winston SILVER 100",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "396",
             "nome": "Marlboro ROSSO MORBIDO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "259",
             "nome": "Marlboro MIX",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2214",
             "nome": "Marlboro TOUCH NERO",
-            "quantita": "5",
-            "totale": "1"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3504",
@@ -207,8 +207,8 @@
         {
             "codice": "2658",
             "nome": "Marlboro POCKET BIANCO",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "819",
@@ -219,14 +219,14 @@
         {
             "codice": "395",
             "nome": "Marlboro ROSSO DURO",
-            "quantita": "8",
-            "totale": "1.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "618",
             "nome": "Marlboro GOLD MORBIDO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "627",
@@ -261,8 +261,8 @@
         {
             "codice": "9",
             "nome": "Marlboro GOLD DURO",
-            "quantita": "15",
-            "totale": "3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "177",
@@ -285,8 +285,8 @@
         {
             "codice": "3015",
             "nome": "BENSON GIALLO",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3016",
@@ -297,8 +297,8 @@
         {
             "codice": "2981",
             "nome": "BENSON ROSSO",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3118",
@@ -315,8 +315,8 @@
         {
             "codice": "2982",
             "nome": "BENSON BLU",
-            "quantita": "4",
-            "totale": "0.8"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "256",
@@ -333,14 +333,14 @@
         {
             "codice": "874",
             "nome": "MERIT BLU",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "997",
             "nome": "MERIT GIALLO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2423",
@@ -357,8 +357,8 @@
         {
             "codice": "1634",
             "nome": "West RED",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "81",
@@ -369,14 +369,14 @@
         {
             "codice": "649",
             "nome": "MS Club BIANCA SLIM",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "231",
             "nome": "MS Club MARRONE SLIM",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2217",
@@ -429,8 +429,8 @@
         {
             "codice": "3007",
             "nome": "JPS BIANCO SLIM",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3010",
@@ -441,14 +441,14 @@
         {
             "codice": "3011",
             "nome": "Rothmans SILVER SLIM",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2654",
             "nome": "Rothmans GRIGIO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2860",
@@ -459,8 +459,8 @@
         {
             "codice": "3012",
             "nome": "Rothmans BIANCO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2878",
@@ -489,20 +489,20 @@
         {
             "codice": "2270",
             "nome": "Rothmans Pocket DEMI",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "867",
             "nome": "Lucky Strike AMBER",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "451",
             "nome": "Lucky Strike ROSSO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "536",
@@ -543,14 +543,14 @@
         {
             "codice": "2771",
             "nome": "821 ROSSO",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3104",
             "nome": "821 VERDE",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "233",
@@ -603,8 +603,8 @@
         {
             "codice": "3220",
             "nome": "PHILIP MORRIS BLU morbido ",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "2603",
@@ -615,8 +615,8 @@
         {
             "codice": "3502",
             "nome": "HEETS YELLOW",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3500",
@@ -627,50 +627,50 @@
         {
             "codice": "3731",
             "nome": "HEETS SIENNA",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3880",
             "nome": "HEETS SIENNA CAPS",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3501",
             "nome": "HEETS TURQUOISE",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3653",
             "nome": "HEETS BLUE",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3707",
             "nome": "HEETS BRONZE",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3816",
             "nome": "HEETS TEAK",
-            "quantita": "2",
-            "totale": "0.4"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3929",
             "nome": "HEETS RUSSET",
-            "quantita": "1",
-            "totale": "0.2"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3970",
             "nome": "HEETS SILVER",
-            "quantita": "3",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "20076",
@@ -771,8 +771,8 @@
         {
             "codice": "3688",
             "nome": "Chester Sigaretti",
-            "quantita": "3",
-            "totale": "1.5"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3528",
@@ -789,8 +789,8 @@
         {
             "codice": "3648",
             "nome": "LUCKY STRIKE Sigaretti",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3530",
@@ -807,8 +807,8 @@
         {
             "codice": "3495",
             "nome": "Marlboro GOLD ",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3494",
@@ -837,8 +837,8 @@
         {
             "codice": "3498",
             "nome": "CHESTERFIELD BLU",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3497",
@@ -867,8 +867,8 @@
         {
             "codice": "3456",
             "nome": "OLD HOLBORN BIANCO",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3455",
@@ -879,8 +879,8 @@
         {
             "codice": "3454",
             "nome": "OLD HOLBORN BLU",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3457",
@@ -897,8 +897,8 @@
         {
             "codice": "3458",
             "nome": "CAMEL BLU",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3459",
@@ -915,8 +915,8 @@
         {
             "codice": "1963",
             "nome": "American Spirit",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3450",
@@ -939,14 +939,14 @@
         {
             "codice": "1927",
             "nome": "PUEBLO",
-            "quantita": "2",
-            "totale": "0.6"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "3461",
             "nome": "WINSTON BLU",
-            "quantita": "1",
-            "totale": "0.3"
+            "quantita": "0",
+            "totale": "0"
         },
         {
             "codice": "1616",
