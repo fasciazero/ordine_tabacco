@@ -268,7 +268,5 @@ void MainWindow::on_radioButton_4_clicked()
 void MainWindow::on_pushButton_11_clicked()
 {
     QProcess::execute("python \"C:/Users/Secernato/Documents/Qt projects/ordine_tabacco/write.py\"");
-    //QProcess process;
-    //process.start("python", QStringList() << "C:/Users/Secernato/Documents/Qt projects/ordine_tabacco/write.py");
 }
 
