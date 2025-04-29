@@ -9,8 +9,8 @@ wb = Workbook()
 # add_sheet is used to create sheet.
 sheet1 = wb.add_sheet('Foglio1')
 
-#file = open(r'C:\Users\Secernato\Documents\Qt projects\ordine_tabacco\database.json')
-with open(r'C:\Users\Secernato\Documents\Qt projects\ordine_tabacco\database.json') as json_data:
+#file = open(r'C:\Users\Krtek\Documents\Qt projects\ordine_tabacco\database.json')
+with open(r'C:\Users\Krtek\Documents\Qt projects\ordine_tabacco\database.json') as json_data:
     d = json.loads(json_data.read())
     json_data.close()
 
@@ -21,4 +21,4 @@ for row in range(1, 142):
             sheet1.write(row, 1, d["elenco"][row-1]["totale"])
 
 
-wb.save(r'C:\Users\Secernato\Desktop\Excel_per_INVIO_ORDINE.xls')
+wb.save(r'C:\Users\Krtek\Desktop\Excel_per_INVIO_ORDINE.xls')

@@ -7,7 +7,7 @@
 #include "QProcess"
 
 extern QString filepath;
-QString filepath = "C:/Users/Secernato/Documents/Qt projects/ordine_tabacco/database.json";
+QString filepath = "C:/Users/Krtek/Documents/Qt projects/ordine_tabacco/database.json";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -267,6 +267,6 @@ void MainWindow::on_radioButton_4_clicked()
 
 void MainWindow::on_pushButton_11_clicked()
 {
-    QProcess::execute("python \"C:/Users/Secernato/Documents/Qt projects/ordine_tabacco/write.py\"");
+    QProcess::execute("python \"C:/Users/Krtek/Documents/Qt projects/ordine_tabacco/write.py\"");
 }
 
