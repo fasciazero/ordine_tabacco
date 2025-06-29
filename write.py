@@ -14,7 +14,7 @@ with open(r'C:\Users\Krtek\Documents\Qt projects\ordine_tabacco\database.json') 
     d = json.loads(json_data.read())
     json_data.close()
 
-for row in range(1, 142):
+for row in range(1, 147):
     if((d["elenco"][row-1]["codice"] != "CODICE AAMS") or (d["elenco"][row-1]["codice"] != "CODICE AAMS")):
         if(d["elenco"][row-1]["totale"] != "0"):
             sheet1.write(row, 0, d["elenco"][row-1]["codice"])
